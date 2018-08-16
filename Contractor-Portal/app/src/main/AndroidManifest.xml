@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.allu.hrm_contractor">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:name=".ApplicationActivity"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".UI.Activities.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CloudActivity" />
+        <activity android:name=".UI.Activities.LoginActivity" />
+        <activity
+            android:name=".UI.Activities.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".UI.Activities.SubActivities.Worker.CreateWorkerActivity" />
+        <activity android:name=".UI.Activities.SettingActivity" />
+        <activity android:name=".UI.Activities.SubActivities.Worker.ViewAllWorkersActivity" />
+
+        <!-- receiver -->
+        <receiver android:name=".BroadcastReceiver.InternetReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <!-- service -->
+        <service
+            android:name=".Services.CloudSync"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".FirebaseService.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".UI.Activities.SubActivities.Request.ViewAllRequests" />
+        <activity android:name=".UI.Activities.SubActivities.Request.AssignEmployees" />
+        <activity android:name=".UI.Activities.SubActivities.Worker.UploadFiles" />
+        <activity android:name=".utils.UploadActivity" />
+        <activity android:name=".UI.Activities.SubActivities.Worker.ViewApprovedWorkers" />
+        <activity android:name=".UI.Activities.SubActivities.Worker.ViewAssignedEmployees" />
+        <activity android:name=".UI.Activities.SubActivities.Worker.ViewUnAssignedWorkers"></activity>
+    </application>
+
+</manifest>

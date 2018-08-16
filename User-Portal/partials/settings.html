@@ -1,0 +1,69 @@
+<div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header">Settings</h1>
+    </div>
+</div>
+
+<div  ng-controller="settingsCtrl" ng-init="init()">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    Change Password
+                </div>
+                <div class="panel-body">
+                    <form name="chnagePasswordForm" role="form">
+                        <div class="form-group">
+                            <label>Current Password *</label>
+                            <input class="form-control" placeholder="Your Current Password" type="password" ng-model="password.old" required>
+                        </div>
+                        <div class="form-group">
+                            <label>New Password *</label>
+                            <input class="form-control" placeholder="New Password" type="password" ng-model="password.new" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Confirm New Password *</label>
+                            <input class="form-control" placeholder="Re-Type the New Password" type="password" ng-model="password.confirm" required>
+                            <span class="help-block" id="passmatch" style="display: none; color:red"> Password doesnot Match.</span>
+                        </div>
+                        <input type="submit" class="btn btn-primary" ng-click="changePassword()" data-ng-disabled="chnagePasswordForm.$invalid"/>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!--<div class="col-lg-6">-->
+            <!--<div class="panel panel-primary">-->
+                <!--<div class="panel-heading">-->
+                    <!--Change Email-ID-->
+                <!--</div>-->
+                <!--<div class="panel-body">-->
+                    <!--<form name="chnageEmailForm" role="form">-->
+                        <!--<div class="form-group">-->
+                            <!--<label>New Email-ID*</label>-->
+                            <!--<input class="form-control" placeholder="Your New Email Address" type="email" ng-model="email.new" required>-->
+                        <!--</div>-->
+                        <!--<input type="submit" class="btn btn-primary" ng-click="changeEmail()" data-ng-disabled="chnageEmailForm.$invalid"/>-->
+                    <!--</form>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <!--<div class="col-lg-6">-->
+            <!--<div class="panel panel-primary">-->
+                <!--<div class="panel-heading">-->
+                    <!--Change Contact No-->
+                <!--</div>-->
+                <!--<div class="panel-body">-->
+                    <!--<form name="chnagePhoneForm" role="form">-->
+                        <!--<div class="form-group">-->
+                            <!--<label>New Contact No. *</label>-->
+                            <!--<input class="form-control" placeholder="Your New Email Address" type="text" ng-model="phone.new" required>-->
+                        <!--</div>-->
+                        <!--<input type="submit" class="btn btn-primary" ng-click="changePhone()" data-ng-disabled="chnagePhoneForm.$invalid"/>-->
+                    <!--</form>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+</div>

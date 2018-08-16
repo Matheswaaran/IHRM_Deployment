@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="IHRM_adminApp">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Admin Portal - Project IHRM</title>
+    <link rel="icon" href="./vendor/images/govt.png">
+    <link href="./vendor/jquery/jquery-ui.css" rel="stylesheet">
+    <link href="./vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+    <link href="./vendor/datatables-plugins/dataTables.bootstrap.css" rel="stylesheet">
+    <link href="./vendor/datatables-responsive/dataTables.responsive.css" rel="stylesheet">
+    <link href="./dist/css/sb-admin-2.css" rel="stylesheet">
+    <link href="./dist/css/toaster.css" rel="stylesheet">
+    <link href="./vendor/morrisjs/morris.css" rel="stylesheet">
+    <link href="./vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div ng-hide="navBar">
+      <div id="wrapper">
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#!/dashboard">Project IHRM</a>
+          </div>
+          <ul class="nav navbar-top-links navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                <i class="fa fa-user fa-fw"></i> My Account <i class="fa fa-caret-down"></i>
+              </a>
+              <ul class="dropdown-menu dropdown-user">
+                <li><a href="#!/settings"><i class="fa fa-gear fa-fw"></i> Settings</a></li>
+                <li class="divider"></li>
+                <li ng-controller="authCtrl"><a ng-click="doLogout()"><i class="fa fa-sign-out fa-fw"></i> Logout</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="navbar-default sidebar" role="navigation">
+            <div class="sidebar-nav navbar-collapse">
+              <ul class="nav" id="side-menu">
+                <li class="sidebar-search"></li>
+                <li><a href="#!/dashboard"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a></li>
+                <li><a href="#!/viewUsers"><i class="fa fa-th-list fa-fw"></i> View Users</a></li>
+                <li><a href="#!/viewSites"><i class="fa fa-th-list fa-fw"></i> View Sites</a></li>
+                <li><a href="#!/viewContractors"><i class="fa fa-th-list fa-fw"></i> View Contractors</a></li>
+                <li><a href="#!/viewPkgContractors"><i class="fa fa-th-list fa-fw"></i> View Package Contractors</a></li>
+                <li><a href="#!/viewEmployees"><i class="fa fa-th-list fa-fw"></i> View Employees</a></li>
+                <li><a href="#!/employeeAttendance"><i class="fa fa-th-list fa-fw"></i> Employee Attendence</a></li>
+                <li><a href="#!/pkgContractorsReq"><i class="fa fa-th-list fa-fw"></i> Package Contractors Requests</a></li>
+                <li><a href="#!/addUser"><i class="fa fa-plus fa-fw"></i> Add User</a></li>
+                <li><a href="#!/addSite"><i class="fa fa-plus fa-fw"></i> Add Site</a></li>
+                <li><a href="#!/settings"><i class="fa fa-cogs fa-fw"></i> Settings</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div id="page-wrapper">
+        <div data-ng-view="" id="ng-view"></div>
+      </div>
+    </div>
+
+    <div ng-hide="loginPage">
+      <div id="wrapper">
+        <div data-ng-view="" id="ng-view"></div>
+      </div>
+    </div>
+
+    <toaster-container toaster-options="{'time-out': 2000}"></toaster-container>
+
+    <script src="./vendor/jquery/jquery.min.js"></script>
+    <script src="./vendor/jquery/jquery-ui.js"></script>
+    <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./vendor/metisMenu/metisMenu.min.js"></script>
+    <script src="./js/angular.min.js"></script>
+    <script src="./js/angular-route.min.js"></script>
+    <script src="./js/angular-animate.min.js" ></script>
+    <script src="./js/toaster.js"></script>
+    <script src="./js/angular-datatables.min.js"></script>
+    <script src="./vendor/datatables/js/jquery.dataTables.min.js"></script>
+    <script src="./vendor/datatables-plugins/dataTables.bootstrap.min.js"></script>
+    <script src="./vendor/datatables-responsive/dataTables.responsive.js"></script>
+    <script src="./app/app.js"></script>
+    <script src="./app/authCtrl.js"></script>
+    <script src="./app/dashboardCtrl.js"></script>
+    <script src="app/addUserCtrl.js"></script>
+    <script src="app/addSiteCtrl.js"></script>
+    <script src="app/viewContractCtrl.js"></script>
+    <script src="app/viewEmployeeCtrl.js"></script>
+    <script src="app/viewPkgContractCtrl.js"></script>
+    <script src="app/viewSiteCtrl.js"></script>
+    <script src="app/viewUserCtrl.js"></script>
+    <script src="app/updateUserCtrl.js"></script>
+    <script src="app/updateSiteCtrl.js"></script>
+    <script src="app/settingsCtrl.js"></script>
+    <script src="app/employeeAttendCtrl.js"></script>
+    <script src="app/pkgContractReqCtrl.js"></script>
+    <script src="./vendor/metisMenu/metisMenu.min.js"></script>
+    <script src="./vendor/raphael/raphael.min.js"></script>
+    <script src="./vendor/morrisjs/morris.min.js"></script>
+    <script src="./data/morris-data.js"></script>
+    <script src="./dist/js/sb-admin-2.js"></script>
+  </body>
+</html>

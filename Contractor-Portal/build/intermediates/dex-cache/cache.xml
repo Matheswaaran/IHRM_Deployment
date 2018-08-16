@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/mat/.android/build-cache/1b6365fd8bd02e4013542cac08aea34bcb4f31b2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9ab787a20aae245b5b3651ae0b9c38459eb37715">
+        <dex dex="/Users/mat/Documents/Project IHRM/ProjectIHRM~Team/AndroidApps/HRM_Contractor/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9379723842261ac51541f8ede33b522b9e14b966/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mat/Documents/Project IHRM/ProjectIHRM~Team/AndroidApps/HRM_Contractor/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c323c36ecc68965c4cfb460f7721113d2b61ed03">
+        <dex dex="/Users/mat/Documents/Project IHRM/ProjectIHRM~Team/AndroidApps/HRM_Contractor/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_cea13f9a51c2dd5fc7843f36cb98d617d98c40f4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mat/.android/build-cache/d3036fdd90319fd228d3d0d46aca0bb6a39d901f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a61e7010aa7be5da53cd1bc5279630510c9a4912">
+        <dex dex="/Users/mat/Documents/Project IHRM/ProjectIHRM~Team/AndroidApps/HRM_Contractor/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3e1a2ac3af4aa1fddbf18c8cebb5c68bcdc81b13/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mat/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="/Users/mat/Documents/Project IHRM/ProjectIHRM~Team/AndroidApps/HRM_Contractor/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.8.0_1ee6bba6d7db018420d3411fd74eccec644dd409/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-beta3/constraint-layout-solver-1.0.0-beta3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="22c1e9d26251df254de7cc9dee01f5f134b10eba">
+        <dex dex="/Users/mat/Documents/Project IHRM/ProjectIHRM~Team/AndroidApps/HRM_Contractor/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.0-beta3_c53e1617e928b12eed83dc82e6af7f5bd684842e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mat/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="/Users/mat/Documents/Project IHRM/ProjectIHRM~Team/AndroidApps/HRM_Contractor/app/build/intermediates/transforms/dex/debug/folders/1000/10/eventbus-3.0.0_e01456644ee6ba27d8e5dad02634ebee1f090829/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mat/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.2.1/2287494d4f5f9f3a9a2bb6980e3f32053721b315/core-3.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="/Users/mat/Documents/Project IHRM/ProjectIHRM~Team/AndroidApps/HRM_Contractor/app/build/intermediates/transforms/dex/debug/folders/1000/10/core-3.2.1_51d5cce075dcb32a376721f62b5547ad876308b9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mat/.android/build-cache/615ee7267fcceb94e750732f61393dc1250e210b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="/Users/mat/Documents/Project IHRM/ProjectIHRM~Team/AndroidApps/HRM_Contractor/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a2daa14319f0f302f95decec30023e7ea0594d2c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mat/.android/build-cache/c46808b8ff39bc0e5d7601fb275de3c918ec59ce/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="421a5cebe9ff187c98075c59786e9464c5c67d36">
+        <dex dex="/Users/mat/Documents/Project IHRM/ProjectIHRM~Team/AndroidApps/HRM_Contractor/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_38410516e7dd33156442b8fa0af77813304f89da/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mat/.android/build-cache/d34cb46a8a9e7cb793289c419f1c078e67cc5f1e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3d6951cb416ebf8c66a32b9480808ca247b68344">
+        <dex dex="/Users/mat/Documents/Project IHRM/ProjectIHRM~Team/AndroidApps/HRM_Contractor/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a93ceef001ac53c4acb58217a38f31ef669a7963/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mat/.android/build-cache/896414657dd32cd36c6dbc16409137f26b00a688/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0e1f104cf60bfe34147ef670229f2635789c79a4">
+        <dex dex="/Users/mat/Documents/Project IHRM/ProjectIHRM~Team/AndroidApps/HRM_Contractor/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4b787a04fd8cc3dfc1af259bab549a61f033ae8b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mat/.android/build-cache/d7241ed817d160bb6f6267195ed2420a11c52461/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bd75f9f0296fe220da6d0ad961831b04541c4452">
+        <dex dex="/Users/mat/Documents/Project IHRM/ProjectIHRM~Team/AndroidApps/HRM_Contractor/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_05d341cd2c86cc2438781b8131124faf45478162/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.0/support-annotations-25.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
+        <dex dex="/Users/mat/Documents/Project IHRM/ProjectIHRM~Team/AndroidApps/HRM_Contractor/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.3.0_7d3d85cf7b466fa2cf785d6fcde56f803c1b74a3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mat/.android/build-cache/4d1f81a1e8773ebe230d68a7b362fcbb0c4aa98a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ea03bbfaed89818f233ee9918fac493f2b63895a">
+        <dex dex="/Users/mat/Documents/Project IHRM/ProjectIHRM~Team/AndroidApps/HRM_Contractor/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f5797478ef6f4d568e45369c61c338b79295afcd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mat/.android/build-cache/dfd8a8e64aebb7364e5dbb9a434d2fe9fad1646b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="75575883f0348fc5d2be85f23bd10b050095cf17">
+        <dex dex="/Users/mat/Documents/Project IHRM/ProjectIHRM~Team/AndroidApps/HRM_Contractor/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cd2295b0d205dfbb28661f8776ad29331829d05a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mat/.android/build-cache/efa3ca6b8359cca8148375a165b12c2af243abac/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="/Users/mat/Documents/Project IHRM/ProjectIHRM~Team/AndroidApps/HRM_Contractor/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9ed69e2f61f5e29ec62753730335baf4c0ba0979/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mat/.android/build-cache/c143d01cc1185900d9c9849b60561abd2c4cc7ff/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="/Users/mat/Documents/Project IHRM/ProjectIHRM~Team/AndroidApps/HRM_Contractor/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_363a9c2f8f53c673557ae298585083e9e0c0fd25/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mat/.android/build-cache/bce7b17ddc5ef520d5289403ab6eaf30dbe3af36/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
+        <dex dex="/Users/mat/Documents/Project IHRM/ProjectIHRM~Team/AndroidApps/HRM_Contractor/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0435aeca855cf2e9e0dbc9a93b2431615e75a033/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mat/.android/build-cache/d0bc4f07173023cb81ff7c58c2c34a60087522cb/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="/Users/mat/Documents/Project IHRM/ProjectIHRM~Team/AndroidApps/HRM_Contractor/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_149c5dbeb9306f4e88b1c71231d73db8e4e547da/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mat/.android/build-cache/d35d1485153b66d9cdd3235db42d4efb1528aa49/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="fbb206f7a119f66ce171d95aae1225a5b209a8b7">
+        <dex dex="/Users/mat/Documents/Project IHRM/ProjectIHRM~Team/AndroidApps/HRM_Contractor/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9c87bc56995ce8e0130678642dcebbfd50452870/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mat/.android/build-cache/7e1a9ca159d3d2787434fddc1386220e0e6fc1a9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/mat/Documents/Project IHRM/ProjectIHRM~Team/AndroidApps/HRM_Contractor/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bb9ecd617579a93711555a5514dd82acd6189167/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mat/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient-android/4.3.5/82edcaec6c7b4599eaeaaf11167ceea41db42f33/httpclient-android-4.3.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="82edcaec6c7b4599eaeaaf11167ceea41db42f33">
+        <dex dex="/Users/mat/Documents/Project IHRM/ProjectIHRM~Team/AndroidApps/HRM_Contractor/app/build/intermediates/transforms/dex/debug/folders/1000/10/httpclient-android-4.3.5_6a0f8ccd3eeeca4ccb1f0129e8c3fc2a709dfc1c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mat/Documents/Project IHRM/ProjectIHRM~Team/AndroidApps/HRM_Contractor/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="fc813854083aeb0b3e532235fb42e96ea57e1669">
+        <dex dex="/Users/mat/Documents/Project IHRM/ProjectIHRM~Team/AndroidApps/HRM_Contractor/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b20221856da6cfaa23d03021571f7de228559c12/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mat/.android/build-cache/8ae91de7c850a522028599dfabec40e527eaaa45/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b81d40d208a3308c8e81b2cccd3054238a13d140">
+        <dex dex="/Users/mat/Documents/Project IHRM/ProjectIHRM~Team/AndroidApps/HRM_Contractor/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_405d2418a53deb40837c8f04b413d18bb31d5b9b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mat/.android/build-cache/b21c03d5d1415bd41f5f1c8bc69c8797e723b48f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5d103b270b3f3b50d8e6b44aa8e068b0de33426">
+        <dex dex="/Users/mat/Documents/Project IHRM/ProjectIHRM~Team/AndroidApps/HRM_Contractor/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bf5466329d9f647874665092bcf66545182d54fe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mat/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.3.6/cf8bacbf0d476c7f2221f861269365b66447f7ec/httpmime-4.3.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="cf8bacbf0d476c7f2221f861269365b66447f7ec">
+        <dex dex="/Users/mat/Documents/Project IHRM/ProjectIHRM~Team/AndroidApps/HRM_Contractor/app/build/intermediates/transforms/dex/debug/folders/1000/10/httpmime-4.3.6_9b1f7353efa8357220e6ea94461282533e477180/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mat/.android/build-cache/ab73a782fcc06acb10610ca7476a6badbaf3d718/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="/Users/mat/Documents/Project IHRM/ProjectIHRM~Team/AndroidApps/HRM_Contractor/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f6ed54b3859ca01b187d3a1a83727336478dc437/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mat/.android/build-cache/cd83a8ed4231cf4d0c8ece3fc999d88b84cde0b0/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1ac56e5801e986583cbe27f2cce57f626cc7ff93">
+        <dex dex="/Users/mat/Documents/Project IHRM/ProjectIHRM~Team/AndroidApps/HRM_Contractor/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_46f4a81eed059ce65abeeb3c864177fe65dba70b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mat/.android/build-cache/bd987f6841f4b5cb6816be54137441bc2be0c546/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="/Users/mat/Documents/Project IHRM/ProjectIHRM~Team/AndroidApps/HRM_Contractor/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0dc5324f95bc75877179f9deb7081fce01de36f5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mat/.android/build-cache/82523e618378c3494c55cc9715bceea8ed1de7c1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="444f9de23145e8caba7bf1c1772acad142ea6013">
+        <dex dex="/Users/mat/Documents/Project IHRM/ProjectIHRM~Team/AndroidApps/HRM_Contractor/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_24c6d90d2f72aa317977541eb99ccea72009be15/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mat/.android/build-cache/a9c1bb5e4094f85da6a8a999b6782a05c1465c4d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ce9112e08a027c8620ae693983e38cdbb9f6371b">
+        <dex dex="/Users/mat/Documents/Project IHRM/ProjectIHRM~Team/AndroidApps/HRM_Contractor/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7d14c355ad3936bb65f180f63d70a88f8cbfd38b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mat/.android/build-cache/16bc607e5bffa5c20dd9829ac0ef263d5019da69/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3d13e510077b35fe8e49930a627dd849ad5da0dc">
+        <dex dex="/Users/mat/Documents/Project IHRM/ProjectIHRM~Team/AndroidApps/HRM_Contractor/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_dc15a7bcbd0946d2ede5550c5fb8838dc7c7408c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mat/.android/build-cache/f851cafd64f0b12d89d76ca6dc4e8baa0bd8d6ad/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0d5cbbbfe040201c7569478b70a13b58fd11aab4">
+        <dex dex="/Users/mat/Documents/Project IHRM/ProjectIHRM~Team/AndroidApps/HRM_Contractor/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e3258e76454203467ddd043b48e11314e9da622e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mat/.android/build-cache/0711f517b35e36b2ed68675b4379e28cdb0d6aed/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="/Users/mat/Documents/Project IHRM/ProjectIHRM~Team/AndroidApps/HRM_Contractor/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c7cd86565dadc6a5c853b8c0e0dedd4d451b22d8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mat/.android/build-cache/97a4a6d1a1ce79cdc96cd634e82e4fbdb4b7883f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="/Users/mat/Documents/Project IHRM/ProjectIHRM~Team/AndroidApps/HRM_Contractor/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7d67dec27f81feb3fd774fd0dceb8df51a50440b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mat/.android/build-cache/db1f8bae76c9df79aa9a698180e27186a12bc1d8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a3e61044038fb54cddf6b8dc79f41d2b57f42caf">
+        <dex dex="/Users/mat/Documents/Project IHRM/ProjectIHRM~Team/AndroidApps/HRM_Contractor/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ea93cd6043b56adefafaf6681d0460d02a8bafef/classes.dex" />
+    </item>
+
+</items>

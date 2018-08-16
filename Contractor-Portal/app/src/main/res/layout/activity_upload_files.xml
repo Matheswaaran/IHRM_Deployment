@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.allu.hrm_contractor.UI.Activities.SubActivities.Worker.UploadFiles"
+    android:orientation="vertical">
+    <Button
+        android:layout_margin="@dimen/default_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="File 1"
+        android:id="@+id/btn_file1"
+        android:onClick="onClick"
+        />
+    <Button
+        android:layout_margin="@dimen/default_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="File 2"
+        android:background="@color/colorAccent"
+        android:id="@+id/btn_file2"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btn_upload"
+        android:onClick="onClick"
+        android:text="Upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>

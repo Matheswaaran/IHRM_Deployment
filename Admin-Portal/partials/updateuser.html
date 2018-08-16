@@ -1,0 +1,75 @@
+<div class="page-content container col-sm-12" ng-controller="updateUserCtrl" ng-init="init()">
+    <div class="content-box-large">
+        <div class="panel-heading">
+            <div class="panel-title">Update User Form</div>
+        </div>
+        <div class="panel-body">
+            <form name="updateUserForm" role="form">
+                <div class="row">
+                    <div class="form-group col-sm-6">
+                        <label>First Name *</label>
+                        <input class="form-control" placeholder="First Name" type="text" ng-model="user.first_name" required>
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <label>Last Name *</label>
+                        <input class="form-control" placeholder="Last Name" type="text" ng-model="user.last_name" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Username *</label>
+                    <input class="form-control" placeholder="Username" type="text" ng-model="user.username" ng-keyup="chkUsername()" required>
+                    <span class="help-block" id="useravail" style="display: none; color:red"> Username already exists! Try again with another one.</span>
+                </div>
+                <div class="form-group">
+                    <label>Email-ID *</label>
+                    <input class="form-control" placeholder="Email Address" type="email" ng-model="user.email" ng-keyup="chkEmail()" required>
+                    <span class="help-block" id="emailavail" style="display: none; color:red">Email already exists. Try again with another one!</span>
+                </div>
+                <div class="form-group">
+                    <label>Aadhar Number *</label>
+                    <input class="form-control" placeholder="Enter the Aadhar Card number" type="text" ng-model="user.aadhar" required>
+                </div>
+                <div class="row">
+                    <div class="form-group col-sm-10">
+                        <label>Password *</label>
+                        <input class="form-control" placeholder="Password" type="{{showPassword?'text':'password'}}" ng-model="user.password" required>
+                        <input type="checkbox" ng-model="showPassword" ng-checked="showPassword" title="">Show Password
+                    </div>
+                    <div class="form-group col-sm-1">
+                        <a style="margin-top:20px" href="" class="btn btn-primary" ng-click="generatePass()">Generate</a>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Address Line 1 *</label>
+                    <input class="form-control" placeholder="Address Line 1" type="text" ng-model="user.address_1" required>
+                </div>
+                <div class="form-group">
+                    <label>Address Line 2 *</label>
+                    <input class="form-control" placeholder="Address Line 2" type="text" ng-model="user.address_2" required>
+                </div>
+                <div class="form-group">
+                    <label>District *</label>
+                    <input class="form-control" placeholder="District" type="text" ng-model="user.district" required>
+                </div>
+                <div class="form-group">
+                    <label>State *</label>
+                    <input class="form-control" placeholder="State" type="text" ng-model="user.state_name" required>
+                </div>
+                <div class="row">
+                    <div class="form-group col-sm-6">
+                        <label>Pincode *</label>
+                        <input class="form-control" placeholder="State" type="text" ng-model="user.pincode" required>
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <label>Contact Number *</label>
+                        <input class="form-control" placeholder="Contact Number" type="number" ng-model="user.contact_no" required>
+                    </div>
+                </div>
+                <div>
+                    <input type="submit" class="btn btn-primary" ng-click="addUser()" data-ng-disabled="addUserForm.$invalid"/>
+                    <input type="reset" class="btn btn-primary" data-ng-disabled="addUserForm.$invalid"/>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

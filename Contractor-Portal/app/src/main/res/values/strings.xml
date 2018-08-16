@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">IHRM Contractor</string>
+
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="login_btn">Login</string>
+    <string name="login_title">Login</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_workers_">Workers_Activity</string>
+
+    <string name="skill1">skilled</string>
+    <string name="skill2">Semi-skilled</string>
+    <string name="skill3">Unskilled</string>
+    <string name="skill4">Helper</string>
+
+    <array name="skill">
+        <item name="skill1">skilled</item>
+        <item name="skill2">Semi-skilled</item>
+        <item name="skill3">Unskilled</item>
+        <item name="skill4">Helper</item>
+    </array>
+
+    <array name="emptype">
+        <item name="type1">Permanent</item>
+        <item name="type2">Contract</item>
+        <item name="type3">Casual</item>
+    </array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
